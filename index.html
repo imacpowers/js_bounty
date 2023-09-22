@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Finance Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Finance Tracker</h1>
+    </header>
+    
+    <main class="main-container">
+        <section class="transaction-form">
+            <h2>Add Transaction</h2>
+            <label for="transactionType">Transaction Type:</label>
+            <select id="transactionType">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+                <option value="lend">Lend</option>
+                <option value="borrow">Borrow</option>
+            </select>
+            <label for="transactionDescription">Description:</label>
+            <input type="text" id="transactionDescription" placeholder="Enter description">
+            <label for="transactionAmount">Amount:</label>
+            <input type="number" id="transactionAmount" placeholder="Enter amount">
+            <button id="addButton">Add Transaction</button>
+        </section>
+
+        <section class="transaction-list">
+            <h2>Transactions</h2>
+            <ul id="transactions"></ul>
+        </section>
+
+        <section class="summary">
+            <h2>Summary</h2>
+            <div>
+                Total Income: $<span id="totalIncome">0.00</span>
+            </div>
+            <div>
+                Total Expenses: $<span id="totalExpenses">0.00</span>
+            </div>
+            <div>
+                Balance: $<span id="balance">0.00</span>
+            </div>
+        </section>
+
+        <section class="how-to-use">
+            <div class="chart-container">
+                <canvas id="financeChart"></canvas>
+            </div>
+            </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 IMPERIAL</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
