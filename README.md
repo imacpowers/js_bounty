@@ -5,6 +5,16 @@
 # Finance Tracker
 
 Welcome to the Finance Tracker web application! This tool allows you to easily track your financial transactions, categorize them, and visualize your income, expenses, and balance over time.
+## Features
+
+- **Transaction Management**: Add, categorize, and manage financial transactions, including income, expenses, lends, and borrows.
+
+- **Transaction List**: Display a list of all transactions with details such as type, description, amount, and date.
+
+- **Summary**: View a summary of your financial status, including total income, total expenses (displayed as positive values), and your current balance.
+
+- **Interactive Chart**: Visualize your financial data over time with an interactive chart that dynamically updates as you add transactions.
+
 
 ## Getting Started
 
@@ -145,4 +155,11 @@ These programming concepts - classes, switch statements, and try-catch-finally s
 ---
 
 .
+## Contributing
 
+If you want to contribute to this project or report issues, please follow the standard procedures for open-source contributions. You can submit bug reports, feature requests, or pull requests through GitHub.
+
+## Acknowledgments
+
+- This project was created using JavaScript, HTML, Css and the Chart.js library.
+- Special thanks to the open-source community for their contributions to web development tools and libraries.
